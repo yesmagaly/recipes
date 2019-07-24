@@ -1,0 +1,7 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = horizontal_feature_demo_block %}
+
+{% block content %}
+  {% include '@molecules/_horizontal-feature.twig' with horizontal_feature %}
+{% endblock %}

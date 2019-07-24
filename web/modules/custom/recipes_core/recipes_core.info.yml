@@ -1,0 +1,5 @@
+name: Recipes Core
+description: An important module
+
+type: module
+core: 8.x

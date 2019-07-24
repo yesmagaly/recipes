@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ * horizontal-feature
+ *
+ * Available variables for horizontal-feature:
+ *  - horizontal_feature.variable_name [variable_type]: Description of the variable. Example below.
+ *  - horizontal_feature.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="horizontal-feature">
+  <a href="{{ horizontal_feature__url }}">
+    <img src="{{ horizontal_feature__image.src }}" alt="{{ horizontal_feature__image.alt }}" class="horizontal-feature__image">
+  </a>
+  <div class="horizontal-feature__content">
+    {% block tag %}
+      {% include '@atoms/_tag.twig' with { tag__label: horizontal_feature__tag } %}
+    {% endblock %}
+    <h2 class="horizontal-feature__content--title">{{ horizontal_feature__title }}</h2>
+    {% block date %}
+      {% include '@atoms/_date.twig' with { date__label: horizontal_feature__date,  date__comments: horizontal_feature__comments} %}
+    {% endblock %}
+    <div class="horizontal-feature__content--body">
+      {{ horizontal_feature__body }}
+    </div>
+    {% block show_more %}
+      {% include '@atoms/_show-more.twig' with { show_more__url: horizontal_feature__url } %}
+    {% endblock %}
+  </div>
+</div>

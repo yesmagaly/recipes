@@ -1,0 +1,23 @@
+// Custom styles for date
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.date {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: $font-family;
+  letter-spacing: 1px;
+
+  &__label {
+    color: #8f8f8f;
+    margin-right: 10px;
+  }
+
+  &__comments {
+    color: #3d3d3d;
+    margin-left: 10px;
+  }
+}

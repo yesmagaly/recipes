@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * tag
+ *
+ * Available variables for tag:
+ *  - tag.variable_name [variable_type]: Description of the variable. Example below.
+ *  - tag.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+{% set topper__classes = [
+  'tag',
+  tag__style ? 'tag--' ~ tag__style,
+] | sort | join(' ') | trim %}
+
+<div class="tag">
+  {% block content %}
+    <a href="{{ tag_url | default('#')}}" target="{{ tag__target | default('_blank') }}">
+      {{ tag__label }}
+    </a>
+  {% endblock %}
+</div>

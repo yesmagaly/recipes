@@ -1,0 +1,19 @@
+// Custom styles for tag
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.tag {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 5px;
+
+  a {
+    color: #45415f;
+    font-family: $font-family;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+}

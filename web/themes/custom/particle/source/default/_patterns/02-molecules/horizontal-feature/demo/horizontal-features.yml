@@ -1,0 +1,16 @@
+horizontal_feature:
+  horizontal_feature__url: 'https://www.bettycrocker.com/recipes/watermelon-cake/'
+  horizontal_feature__image:
+    src: 'https://images-gmi-pmc.edge-generalmills.com/06196675-b28d-4844-ad12-c300851c4961.jpg'
+    alt: 'Image'
+  horizontal_feature__tag: 'Recipes'
+  horizontal_feature__title: 'Delicious summer cake'
+  horizontal_feature__date: 'June 7, 2019'
+  horizontal_feature__comments: '5 comments'
+  horizontal_feature__body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat commodo consequat.'
+horizontal_feature_demo_block:
+  title: 'horizontal-feature Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'

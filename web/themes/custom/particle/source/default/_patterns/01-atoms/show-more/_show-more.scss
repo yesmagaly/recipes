@@ -1,0 +1,16 @@
+// Custom styles for show-more
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.show-more {
+
+  a {
+    color: #c8c7cc;
+  }
+
+  i {
+    font-size: 11px;
+  }
+}

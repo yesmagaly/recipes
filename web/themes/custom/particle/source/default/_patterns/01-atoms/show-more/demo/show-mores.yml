@@ -1,0 +1,8 @@
+show_more:
+  show_more__url: 'https://www.bettycrocker.com/recipes/watermelon-cake/4c37c067-88de-42bc-954f-6e70f5dd2805'
+  show_more__target: '_blank'
+show_more_demo_block:
+  title: 'show-more Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'

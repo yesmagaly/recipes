@@ -1,0 +1,8 @@
+tag:
+  tag__label: 'Tops'
+
+tag_demo_block:
+  title: 'tag Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'

@@ -1,0 +1,7 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = show_more_demo_block %}
+
+{% block content %}
+  {% include '@atoms/_show-more.twig' with show_more %}
+{% endblock %}

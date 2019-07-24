@@ -1,0 +1,17 @@
+{#
+/**
+ * @file
+ * date
+ *
+ * Available variables for date:
+ *  - date.variable_name [variable_type]: Description of the variable. Example below.
+ *  - date.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="date">
+  {% block content %}
+    <span class="date__label">{{ date__label }}</span> -
+    <span class="date__comments">{{ date__comments }}</span>
+  {% endblock %}
+</div>

@@ -1,0 +1,9 @@
+date:
+  date__label: 'June 7, 2019'
+  date__comments: '5 comments'
+
+date_demo_block:
+  title: 'date Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'

@@ -1,0 +1,7 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = tag_demo_block %}
+
+{% block content %}
+  {% include '@atoms/_tag.twig' with tag %}
+{% endblock %}

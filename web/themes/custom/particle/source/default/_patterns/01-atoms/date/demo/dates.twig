@@ -1,0 +1,7 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = date_demo_block %}
+
+{% block content %}
+  {% include '@atoms/_date.twig' with date %}
+{% endblock %}

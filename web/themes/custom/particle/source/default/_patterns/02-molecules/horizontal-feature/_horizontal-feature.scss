@@ -1,0 +1,36 @@
+// Custom styles for horizontal-feature
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.horizontal-feature {
+  display: flex;
+
+  &__image {
+    object-fit: cover;
+    width: 240px;
+    height: 230px
+  }
+
+  &__content {
+    margin-left: 25px;
+    color: #858585;
+
+    &--title {
+      font-family: $font-family;
+      color: #2c2c2c;
+      margin: 15px 0;
+      font-weight: 600;
+      font-size: 27px;
+      text-transform: capitalize;
+    }
+
+    &--body {
+      margin: 20px 0 17px 0;
+      font-family: $font-family;
+      font-size: 16px;
+    }
+  }
+
+}
