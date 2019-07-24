@@ -11,13 +11,17 @@
 
 <div class="image-card">
   <div class="image-card__img">
-    <img src="https://dessertsbyjuliette.com/wp-content/uploads/2017/06/Desserts-by-juliette-healty-fruit-salad-summer-fun-1024x765.jpg" alt="">
+    <img src="{{ image_card__image.src }}" alt="{{ image_card__image.alt }}">
   </div>
   <div class="image-card__content">
     {% block tag %}
       {% include '@atoms/_tag.twig' with { tag__label: image_card__tag, tag__style: 'alternative'} %}
     {% endblock %}
-    <h2>{{ image_card__title }}</h2>
+
+    <h2 class="image-card__title">
+      <a href="#">{{ image_card__title }}</a>
+    </h2>
+
     {% block date %}
       {% include '@atoms/_date.twig' with { date__label: image_card__date,  date__comments: image_card__comments, date__style: 'alternative'} %}
     {% endblock %}

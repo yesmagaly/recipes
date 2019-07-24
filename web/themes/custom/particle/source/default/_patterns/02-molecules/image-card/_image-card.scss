@@ -30,13 +30,18 @@
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, .5);
+  }
 
-    h2 {
-      text-transform: capitalize;
-      font-family: $font-family;
-      font-weight: bold;
-      font-size: 40px;
-      padding: 13px 0 18px 0;
+  &__title {
+    text-transform: capitalize;
+    font-family: $font-family;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 13px 0 18px 0;
+
+    a {
+      text-decoration: none;
+      color: white;
     }
   }
 }

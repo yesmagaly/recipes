@@ -1,4 +1,7 @@
 image_card:
+  image_card__image:
+    src: 'https://dessertsbyjuliette.com/wp-content/uploads/2017/06/Desserts-by-juliette-healty-fruit-salad-summer-fun-1024x765.jpg'
+    alt: 'https://dessertsbyjuliette.com/wp-content/uploads/'
   image_card__title: 'New ways to be strong'
   image_card__tag: 'Tips & tricks'
   image_card__date: 'June 7, 2019'
