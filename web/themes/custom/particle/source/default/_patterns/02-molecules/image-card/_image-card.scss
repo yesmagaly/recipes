@@ -1,0 +1,42 @@
+// Custom styles for image-card
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.image-card {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+  color: white;
+
+  &__img {
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: auto;
+    }
+  }
+
+  &__content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .5);
+
+    h2 {
+      text-transform: capitalize;
+      font-family: $font-family;
+      font-weight: bold;
+      font-size: 40px;
+      padding: 13px 0 18px 0;
+    }
+  }
+}

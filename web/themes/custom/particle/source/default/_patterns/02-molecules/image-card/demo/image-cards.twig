@@ -1,0 +1,7 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = image_card_demo_block %}
+
+{% block content %}
+  {% include '@molecules/_image-card.twig' with image_card %}
+{% endblock %}

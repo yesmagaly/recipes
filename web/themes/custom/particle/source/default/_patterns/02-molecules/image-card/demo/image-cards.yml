@@ -1,0 +1,11 @@
+image_card:
+  image_card__title: 'New ways to be strong'
+  image_card__tag: 'Tips & tricks'
+  image_card__date: 'June 7, 2019'
+  image_card__comments: '5 comments'
+
+image_card_demo_block:
+  title: 'image-card Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'
