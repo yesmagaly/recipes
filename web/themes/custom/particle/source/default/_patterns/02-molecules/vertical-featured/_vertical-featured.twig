@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ * vertical-featured
+ *
+ * Available variables for vertical-featured:
+ *  - vertical_featured.variable_name [variable_type]: Description of the variable. Example below.
+ *  - vertical_featured.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="vertical-featured">
+  <a href="{{ vertical_featured__url }}" class="vertical-featured__img">
+    <img src="{{ vertical_featured__image.src }}" alt="{{ vertical_featured__image.alt }}">
+  </a>
+  <div class="vertical-featured__content">
+    {% block tag %}
+      {% include '@atoms/_tag.twig' with { tag__label: vertical_featured__tag } %}
+    {% endblock %}
+
+    <h2 class="vertical-featured__title">{{ vertical_featured__title }}</h2>
+    
+    {% block date %}
+      {% include '@atoms/_date.twig' with { date__label: vertical_featured__date,  date__comments: vertical_featured__comments} %}
+    {% endblock %}
+
+    <div class="vertical-featured__description">
+      {{ vertical_featured__body }}
+    </div>
+  </div>
+</div>
