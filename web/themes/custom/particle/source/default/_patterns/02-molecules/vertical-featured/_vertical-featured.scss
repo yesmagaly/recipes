@@ -23,11 +23,15 @@
 
   &__title {
     font-family: $font-family;
-    color: #2c2c2c;
     margin: 15px 0;
     font-weight: 600;
     font-size: 27px;
     text-transform: capitalize;
+
+    a {
+      color: #2c2c2c;
+      text-decoration: none;
+    }
   }
 
   &__description {
