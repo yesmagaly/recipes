@@ -8,12 +8,12 @@
  *  - tag.invert [bool]: When set, colors will be inverted for light display on dark background.
  */
 #}
-{% set topper__classes = [
+{% set tag__classes = [
   'tag',
   tag__style ? 'tag--' ~ tag__style,
 ] | sort | join(' ') | trim %}
 
-<div class="tag">
+<div class="{{ tag__classes }}">
   {% block content %}
     <a href="{{ tag_url | default('#')}}" target="{{ tag__target | default('_blank') }}">
       {{ tag__label }}

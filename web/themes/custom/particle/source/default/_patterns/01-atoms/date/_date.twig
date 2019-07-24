@@ -8,8 +8,12 @@
  *  - date.invert [bool]: When set, colors will be inverted for light display on dark background.
  */
 #}
+{% set date__classes = [
+  'date',
+  date__style ? 'date--' ~ date__style,
+] | sort | join(' ') | trim %}
 
-<div class="date">
+<div class="{{ date__classes }}">
   {% block content %}
     <span class="date__label">{{ date__label }}</span> -
     <span class="date__comments">{{ date__comments }}</span>
