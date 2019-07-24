@@ -14,23 +14,23 @@
   }
 
   &__content {
-    margin-left: 25px;
+    margin: 5px 0 5px 25px;
     color: #858585;
+  }
 
-    &--title {
-      font-family: $font-family;
-      color: #2c2c2c;
-      margin: 15px 0;
-      font-weight: 600;
-      font-size: 27px;
-      text-transform: capitalize;
-    }
+  &__title {
+    font-family: $font-family;
+    color: #2c2c2c;
+    margin: 15px 0;
+    font-weight: 600;
+    font-size: 27px;
+    text-transform: capitalize;
+  }
 
-    &--body {
-      margin: 20px 0 17px 0;
-      font-family: $font-family;
-      font-size: 16px;
-    }
+  &__description {
+    margin: 20px 0 17px 0;
+    font-family: $font-family;
+    font-size: 16px;
   }
 
 }
