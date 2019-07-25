@@ -1,0 +1,8 @@
+highlighted_text:
+  highlighted_text__summary: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. Duis aute irure dolor in reprehenderit.'
+
+highlighted_text_demo_block:
+  title: 'highlighted-text Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'

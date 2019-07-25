@@ -1,0 +1,31 @@
+// Custom styles for highlighted-text
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.highlighted-text {
+  font-family: $font-family;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  padding: 35px 80px;
+  text-align: center;
+
+  i {
+    color: #423770;
+    font-size: 30px;
+    top: -17px;
+    position: absolute;
+    border: 1px solid white;
+    width: 55px;
+    height: 20px;
+    background-color: white;
+  }
+  
+  &__summary {
+    color: #262626;
+    font-style: italic;
+    font-size: 17px;
+  }
+}

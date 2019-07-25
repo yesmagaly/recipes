@@ -1,0 +1,7 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = highlighted_text_demo_block %}
+
+{% block content %}
+  {% include '@atoms/_highlighted-text.twig' with highlighted_text %}
+{% endblock %}

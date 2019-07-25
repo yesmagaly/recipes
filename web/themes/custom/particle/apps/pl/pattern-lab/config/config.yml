@@ -63,6 +63,7 @@ plugins:
           - ../../../source/default/_patterns/01-atoms/date
           - ../../../source/default/_patterns/01-atoms/dropdown
           - ../../../source/default/_patterns/01-atoms/grid
+          - ../../../source/default/_patterns/01-atoms/highlighted-text
           - ../../../source/default/_patterns/01-atoms/image
           - ../../../source/default/_patterns/01-atoms/list-group
           - ../../../source/default/_patterns/01-atoms/show-more
