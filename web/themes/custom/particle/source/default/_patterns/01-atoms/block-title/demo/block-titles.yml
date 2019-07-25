@@ -1,0 +1,8 @@
+block_title:
+  block_title__label: 'Delicious summer cake'
+
+block_title_demo_block:
+  title: 'block-title Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'

@@ -57,6 +57,7 @@ plugins:
           - ../../../source/default/_patterns/01-atoms
           - ../../../source/default/_patterns/01-atoms/alert
           - ../../../source/default/_patterns/01-atoms/badge
+          - ../../../source/default/_patterns/01-atoms/block-title
           - ../../../source/default/_patterns/01-atoms/branding
           - ../../../source/default/_patterns/01-atoms/breadcrumb
           - ../../../source/default/_patterns/01-atoms/button

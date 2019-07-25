@@ -1,0 +1,20 @@
+// Custom styles for block-title
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.block-title {
+  h1 {
+    font-family: $font-family;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 15px 0;
+    text-transform: capitalize;
+
+    a {
+      color: #2c2c2c;
+      text-decoration: none;
+    }
+  }
+}
