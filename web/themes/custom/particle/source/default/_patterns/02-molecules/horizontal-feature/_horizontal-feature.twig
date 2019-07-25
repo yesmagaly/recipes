@@ -18,9 +18,9 @@
       {% include '@atoms/_tag.twig' with { tag__label: horizontal_feature__tag } %}
     {% endblock %}
 
-    <h2 class="horizontal-feature__title">
-      <a href="#">{{ horizontal_feature__title }}</a>
-    </h2>
+    {% block title %}
+      {% include '@atoms/_block-title.twig' with { block_title__label: horizontal_feature__title } %}
+    {% endblock %}
 
     {% block date %}
       {% include '@atoms/_date.twig' with { date__label: horizontal_feature__date,  date__comments: horizontal_feature__comments} %}
@@ -29,7 +29,7 @@
     <div class="horizontal-feature__description">
       {{ horizontal_feature__body }}
     </div>
-    
+
     {% block show_more %}
       {% include '@atoms/_show-more.twig' with { show_more__url: horizontal_feature__url } %}
     {% endblock %}

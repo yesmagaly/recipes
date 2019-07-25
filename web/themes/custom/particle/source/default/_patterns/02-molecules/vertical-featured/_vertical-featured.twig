@@ -18,10 +18,10 @@
       {% include '@atoms/_tag.twig' with { tag__label: vertical_featured__tag } %}
     {% endblock %}
 
-    <h2 class="vertical-featured__title">
-      <a href="#">{{ vertical_featured__title }}</a>
-    </h2>
-    
+    {% block title %}
+      {% include '@atoms/_block-title.twig' with { block_title__label: vertical_featured__title } %}
+    {% endblock %}
+
     {% block date %}
       {% include '@atoms/_date.twig' with { date__label: vertical_featured__date,  date__comments: vertical_featured__comments} %}
     {% endblock %}

@@ -21,19 +21,6 @@
     margin: 25px 0;
   }
 
-  &__title {
-    font-family: $font-family;
-    margin: 15px 0;
-    font-weight: 600;
-    font-size: 27px;
-    text-transform: capitalize;
-
-    a {
-      color: #2c2c2c;
-      text-decoration: none;
-    }
-  }
-
   &__description {
     margin: 20px 0 17px 0;
     font-family: $font-family;
