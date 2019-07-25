@@ -73,6 +73,7 @@ plugins:
           - ../../../source/default/_patterns/02-molecules
           - ../../../source/default/_patterns/02-molecules/card
           - ../../../source/default/_patterns/02-molecules/carousel
+          - ../../../source/default/_patterns/02-molecules/fans-page-card
           - ../../../source/default/_patterns/02-molecules/horizontal-feature
           - ../../../source/default/_patterns/02-molecules/image-card
           - ../../../source/default/_patterns/02-molecules/jumbotron

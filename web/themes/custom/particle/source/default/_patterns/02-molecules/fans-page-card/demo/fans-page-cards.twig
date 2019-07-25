@@ -1,0 +1,7 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = fans_page_card_demo_block %}
+
+{% block content %}
+  {% include '@molecules/_fans-page-card.twig' with fans_page_card %}
+{% endblock %}

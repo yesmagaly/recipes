@@ -1,0 +1,11 @@
+fans_page_card:
+  fans_page_card__img:
+    src: 'https://www.tasteofhome.com/wp-content/uploads/2017/10/exps20334_EWD153732B03_27_9b-1-696x696.jpg'
+    alt: 'https://www.tasteofhome.com/'
+  fans_page_card__tag: 'facebook fans page'
+  
+fans_page_card_demo_block:
+  title: 'fans-page-card Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'

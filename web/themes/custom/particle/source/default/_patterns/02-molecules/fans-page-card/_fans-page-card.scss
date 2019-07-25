@@ -1,0 +1,42 @@
+// Custom styles for fans-page-card
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.fans-page-card {
+  position: relative;
+  width: 265px;
+  height: 250px;
+  overflow: hidden;
+
+  &__img {
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: auto;
+    }
+  }
+
+  &__content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .5);
+
+    a {
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    i {
+      font-size: 60px;
+    }
+  }
+}

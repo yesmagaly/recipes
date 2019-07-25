@@ -1,0 +1,25 @@
+{#
+/**
+ * @file
+ * fans-page-card
+ *
+ * Available variables for fans-page-card:
+ *  - fans_page_card.variable_name [variable_type]: Description of the variable. Example below.
+ *  - fans_page_card.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="fans-page-card">
+  <a href="#" class="fans-page-card__img">
+    <img src="{{ fans_page_card__img.src }}" alt="{{ fans_page_card__img.alt }}">
+  </a>
+  <div class="fans-page-card__content">
+    <a href="#">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    
+    {% block tag %}
+      {% include '@atoms/_tag.twig' with { tag__label: fans_page_card__tag } %}
+    {% endblock %}
+  </div>
+</div>
