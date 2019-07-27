@@ -8,9 +8,18 @@
  *  - block_title.invert [bool]: When set, colors will be inverted for light display on dark background.
  */
 #}
+{% set block_title__classes = [
+  'block-title',
+  block_title__style ? 'block-title--' ~ block_title__style,
+  block_title__size ? 'block-title--' ~ block_title__size,
+] | sort | join(' ') | trim %}
 
-<div class="block-title">
-  <h1>
-    <a href="#">{{ block_title__label}}</a>
-  </h1>
+{% set header_tag = block_title__header_tag|default('h2') %}
+
+<div class="{{ block_title__classes }}">
+    <{{ header_tag }} class="block-title__title">
+      {% block title %}
+        <a href="#">{{ block_title__label }}</a>
+      {% endblock %}
+    </{{ header_tag }}>
 </div>

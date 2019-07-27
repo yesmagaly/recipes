@@ -18,6 +18,10 @@
       {% include '@atoms/_tag.twig' with { tag__label: image_card__tag, tag__style: 'alternative'} %}
     {% endblock %}
 
+    {% block title %}
+      {% include '@atoms/_block-title.twig' with { block_title__label: image_card__title, block_title__style: 'alternative'} %}
+    {% endblock %}
+
     <h2 class="image-card__title">
       <a href="#">{{ image_card__title }}</a>
     </h2>
