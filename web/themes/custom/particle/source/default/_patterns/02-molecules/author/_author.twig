@@ -1,0 +1,35 @@
+{#
+/**
+ * @file
+ * author
+ *
+ * Available variables for author:
+ *  - author.variable_name [variable_type]: Description of the variable. Example below.
+ *  - author.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="author">
+  <div class="author__photo">
+    <img src="{{ author__photo.src }}" alt="{{ author__photo.alt }}">
+  </div>
+  <div class="author__info">
+    <h4 class="author__name">{{ author__name }}</h4>
+    <div class="author__description">{{ author__description }}</div>
+    <div class="author__social-media">
+      <a href="#">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-pinterest-p"></i>
+      </a>
+    </div>
+  </div>
+
+</div>

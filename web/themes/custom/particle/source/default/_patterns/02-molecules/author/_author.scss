@@ -1,0 +1,58 @@
+// Custom styles for author
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.author {
+  display: flex;
+
+  &__photo {
+    margin-right: 25px;
+    width: 150px;
+
+
+    img {
+      background: rgba(0, 0, 0, .5);
+      border-radius: 50%;
+      border: 1px solid transparent;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  &__info {
+    font-family: $font-family;
+    font-size: 15px;
+    color: #727272;
+    margin: 8px 0;
+  }
+
+  &__name {
+    color: #222222;
+    font-size: 17px;
+    font-family: $font-family;
+    font-weight: 600;
+  }
+
+  &__description {
+    margin-bottom: 15px;
+  }
+
+  &__social-media {
+
+    a {
+      color: #423a69;
+    }
+
+    i {
+      margin: 0 15px;
+      font-size: 13px;
+    }
+
+    i:first-child {
+      margin-left: 0;
+    }
+  }
+}

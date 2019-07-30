@@ -1,0 +1,13 @@
+author:
+  author__photo:
+    src: 'https://www.drupal.org/files/styles/grid-3-2x/public/project-images/ninja2-1.png?itok=levcXuOE'
+    alt: 'https://www.drupal.org/'
+
+  author__name: 'Chloe Williams'
+  author__description: 'Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+
+author_demo_block:
+  title: 'author Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'

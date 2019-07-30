@@ -1,0 +1,7 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = author_demo_block %}
+
+{% block content %}
+  {% include '@molecules/_author.twig' with author %}
+{% endblock %}
