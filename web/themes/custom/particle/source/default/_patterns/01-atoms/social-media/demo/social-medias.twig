@@ -1,0 +1,7 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = social_media_demo_block %}
+
+{% block content %}
+  {% include '@atoms/_social-media.twig' with social_media %}
+{% endblock %}

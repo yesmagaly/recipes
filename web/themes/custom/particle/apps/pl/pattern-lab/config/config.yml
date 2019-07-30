@@ -69,6 +69,7 @@ plugins:
           - ../../../source/default/_patterns/01-atoms/image
           - ../../../source/default/_patterns/01-atoms/list-group
           - ../../../source/default/_patterns/01-atoms/show-more
+          - ../../../source/default/_patterns/01-atoms/social-media
           - ../../../source/default/_patterns/01-atoms/svg
           - ../../../source/default/_patterns/01-atoms/tag
       molecules:
