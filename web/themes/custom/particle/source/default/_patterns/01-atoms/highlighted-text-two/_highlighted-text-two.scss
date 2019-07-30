@@ -1,0 +1,27 @@
+// Custom styles for highlighted-text-two
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.highlighted-text-two {
+  display: flex;
+  background: #f6f6f6;
+
+  &__bar {
+    height: 80px;
+    border: 2px solid #4b4473;
+  }
+
+  &__content {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    font-size: 17px;
+    font-style: italic;
+    font-family: $font-family;
+    line-height: 27px;
+    margin: 0 25px;
+  }
+}
