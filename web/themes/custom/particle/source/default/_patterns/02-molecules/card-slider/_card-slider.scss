@@ -1,0 +1,59 @@
+// Custom styles for card-slider
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.card-slider {
+  display: flex;
+}
+
+.card-slider-item {
+  flex: 1;
+
+  &__inner {
+    height: 445px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__label {
+    position: absolute;
+    bottom: 0;
+    padding: 15px 10px;
+    color: white;
+    text-decoration: none;
+    left: 0;
+    right: 0;
+    font-family: $font-family;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+
+  &:nth-child(odd) &__label {
+    background: rgba(0, 0, 0, .5);
+  }
+
+  &:nth-child(odd) &__image {
+    background: rgba(0, 0, 0, .5);
+  }
+
+  &:nth-child(even) &__label {
+    background: #4e4377;
+  }
+}

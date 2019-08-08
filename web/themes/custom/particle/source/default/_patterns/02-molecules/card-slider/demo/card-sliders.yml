@@ -1,0 +1,13 @@
+card_slider_item:
+  card_slider_item__url: "https://www.bbcgoodfood.com/sites/"
+  card_slider_item__image:
+    src: "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/epic-summer-salad.jpg"
+    alt: "https://www.bbcgoodfood.com/"
+  card_slider_item__label: "Fast but very healthy"
+
+
+card_slider_demo_block:
+  title: 'card-slider Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'

@@ -1,0 +1,12 @@
+related_image:
+  related_image__photo:
+    src: 'https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2018/05/healthy-summer-dinner-collection.jpg'
+    alt: 'https://www.bbcgoodfood.com/sites/'
+
+  related_image__title: 'Delicious summer cake'
+  related_image__date: 'June 7, 2019'
+related_image_demo_block:
+  title: 'related-image Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'

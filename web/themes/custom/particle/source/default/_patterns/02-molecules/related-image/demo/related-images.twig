@@ -1,0 +1,7 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = related_image_demo_block %}
+
+{% block content %}
+  {% include '@molecules/_related-image.twig' with related_image %}
+{% endblock %}

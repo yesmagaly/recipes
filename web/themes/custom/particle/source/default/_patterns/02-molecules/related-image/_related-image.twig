@@ -1,0 +1,25 @@
+{#
+/**
+ * @file
+ * related-image
+ *
+ * Available variables for related-image:
+ *  - related_image.variable_name [variable_type]: Description of the variable. Example below.
+ *  - related_image.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="related-image">
+  <div class="related-image__img">
+    <img src="{{ related_image__photo.src }}" alt="{{ related_image__photo.alt }}">
+  </div>
+  <div class="related-image__content">
+    {% block title %}
+      {% include '@atoms/_block-title.twig' with { block_title__label: related_image__title, block_title__style: 'medium'} %}
+    {% endblock %}
+
+    {% block date %}
+      {% include '@atoms/_date.twig' with { date__label: related_image__date, date__style: 'alternative'} %}
+    {% endblock %}
+  </div>
+</div>

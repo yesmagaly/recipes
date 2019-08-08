@@ -1,0 +1,19 @@
+{#
+/**
+ * @file
+ * card-slider
+ *
+ * Available variables for card-slider:
+ *  - card_slider.variable_name [variable_type]: Description of the variable. Example below.
+ *  - card_slider.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="card-slider-item">
+  <a href="{{ card_slider_item__url }}" class="card-slider-item__inner">
+    <div class="card-slider-item__image">
+      <img src="{{ card_slider_item__image.src }}" alt="{{ card_slider_item__image.alt }}">
+    </div>
+    <div class="card-slider-item__label">{{ card_slider_item__label }}</div>
+  </a>
+</div>
