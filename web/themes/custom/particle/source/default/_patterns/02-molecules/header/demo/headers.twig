@@ -1,0 +1,7 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = header_demo_block %}
+
+{% block content %}
+  {% include '@molecules/_header.twig' with header %}
+{% endblock %}

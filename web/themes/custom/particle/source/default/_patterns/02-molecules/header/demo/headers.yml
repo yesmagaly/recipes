@@ -1,0 +1,9 @@
+header:
+  header__name: "allure"
+  header__slogan: "lifestyle blog"
+
+header_demo_block:
+  title: 'header Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'

@@ -1,0 +1,23 @@
+// Custom styles for header
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.header {
+  text-align: center;
+  &__label {
+    font-family: $header-font;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 65px;
+  }
+
+  &__slogan {
+    font-family: $slogan-font;
+    font-size: 23px;
+    color: #888;
+    text-transform: capitalize;
+    font-weight: 400;
+  }
+}
