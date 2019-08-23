@@ -8,4 +8,19 @@
     border-color: $light;
     border-style: solid;
   }
+
+  &-link {
+    text-transform: uppercase;
+    font-family: $font-family;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+}
+
+.dropdown-item {
+  font-family: $font-family;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
