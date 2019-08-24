@@ -1,0 +1,18 @@
+{#
+/**
+ * @file
+ * album
+ *
+ * Available variables for album:
+ *  - album.variable_name [variable_type]: Description of the variable. Example below.
+ *  - album.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="album-item">
+  <a href="{{ album_item__url }}" class="album-item__inner">
+    <div class="album-item__image">
+      <img src="{{ album_item__image.src }}" alt="{{ album_item__image.alt }}">
+    </div>
+  </a>
+</div>
