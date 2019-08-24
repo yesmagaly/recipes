@@ -1,0 +1,32 @@
+{% extends '@templates/site-container.twig' %}
+  {% block content %}
+
+    {% embed '@molecules/_card-slider.twig' with card_slider_item %}
+      {% block content %}
+      {% include '@molecules/_card-slider--item.twig' %}
+      {% include '@molecules/_card-slider--item.twig' %}
+      {% include '@molecules/_card-slider--item.twig' %}
+      {% endblock %}
+    {% endembed %}
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 py-6">
+          {% include '@molecules/_fans-page-card.twig' with fans_page_card %}
+        </div>
+        <div class="col-md-9 py-6">
+          {% include '@molecules/_horizontal-feature.twig' with horizontal_feature %}
+          {% include '@molecules/_horizontal-feature.twig' with horizontal_feature %}
+          {% include '@molecules/_horizontal-feature.twig' with horizontal_feature %}
+
+          {% include '@molecules/_image-card.twig' with image_card %}
+
+          {% include '@molecules/_horizontal-feature.twig' with horizontal_feature %}
+          {% include '@molecules/_horizontal-feature.twig' with horizontal_feature %}
+          {% include '@molecules/_horizontal-feature.twig' with horizontal_feature %}
+
+        </div>
+      </div>
+    </div>
+
+  {% endblock %}

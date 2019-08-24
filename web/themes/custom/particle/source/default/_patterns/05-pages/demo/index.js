@@ -15,6 +15,8 @@ import 'templates/basic-page';
 // Demo templates.
 import './article.twig';
 import './homepage.twig';
+import './homepage-a.twig';
+import './homepage-a.yml';
 
 export const name = 'demoPages';
 

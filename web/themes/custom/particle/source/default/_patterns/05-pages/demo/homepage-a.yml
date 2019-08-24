@@ -1,0 +1,33 @@
+card_slider_item:
+  card_slider_item__url: "https://www.bbcgoodfood.com/sites/"
+  card_slider_item__image:
+    src: "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/epic-summer-salad.jpg"
+    alt: "https://www.bbcgoodfood.com/"
+  card_slider_item__label: "Fast but very healthy"
+
+fans_page_card:
+  fans_page_card__img:
+    src: 'https://www.tasteofhome.com/wp-content/uploads/2017/10/exps20334_EWD153732B03_27_9b-1-696x696.jpg'
+    alt: 'https://www.tasteofhome.com/'
+  fans_page_card__tag: 'facebook fans page'
+
+horizontal_feature:
+  horizontal_feature__url: 'https://www.bettycrocker.com/recipes/watermelon-cake/'
+  horizontal_feature__image:
+    src: 'https://images-gmi-pmc.edge-generalmills.com/06196675-b28d-4844-ad12-c300851c4961.jpg'
+    alt: 'Image'
+  horizontal_feature__tag: 'Recipes'
+  horizontal_feature__title: 'Delicious summer cake'
+  horizontal_feature__date: 'June 7, 2019'
+  horizontal_feature__comments: '5 comments'
+  horizontal_feature__body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat commodo consequat.'
+
+image_card:
+  image_card__image:
+    src: 'https://dessertsbyjuliette.com/wp-content/uploads/2017/06/Desserts-by-juliette-healty-fruit-salad-summer-fun-1024x765.jpg'
+    alt: 'https://dessertsbyjuliette.com/wp-content/uploads/'
+  image_card__title: 'New ways to be strong'
+  image_card__tag: 'Tips & tricks'
+  image_card__date: 'June 7, 2019'
+  image_card__comments: '5 comments'
