@@ -1,0 +1,9 @@
+newsletter:
+  newsletter__title: "Newsletter"
+  newsletter__btn: "Subscribe"
+
+newsletter_demo_block:
+  title: 'newsletter Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'

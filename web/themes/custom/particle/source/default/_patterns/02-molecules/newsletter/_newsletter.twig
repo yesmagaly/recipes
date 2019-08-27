@@ -1,0 +1,20 @@
+{#
+/**
+ * @file
+ * newsletter
+ *
+ * Available variables for newsletter:
+ *  - newsletter.variable_name [variable_type]: Description of the variable. Example below.
+ *  - newsletter.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="newsletter">
+  <h3 class="newsletter__title">{{ newsletter__title }}</h3>
+  <div >
+    <div class="form-group">
+      <input type="text" name="email" value="" class="form-control form-control-lg" placeholder="Email Address">
+    </div>
+    <button type="button" name="button" class="btn btn-primary btn-lg btn-block">{{ newsletter__btn }}</button>
+  </div>
+</div>

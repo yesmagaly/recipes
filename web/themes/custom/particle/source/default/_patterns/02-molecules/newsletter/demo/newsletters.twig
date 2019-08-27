@@ -1,0 +1,7 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = newsletter_demo_block %}
+
+{% block content %}
+  {% include '@molecules/_newsletter.twig' with newsletter %}
+{% endblock %}
