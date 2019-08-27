@@ -3,4 +3,26 @@
 //   webpack.particle.js: sass-loader.data|includePaths
 
 .footer {
+  background: #2b2b2b;
+  color: white;
+
+  &__title {
+    font-family: $header-font;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 65px;
+    text-transform: lowercase;
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  &__slogan {
+    font-size: 13px;
+    color: #555;
+    font-family: $font-family;
+    text-align: center;
+    font-weight: 600;
+    padding: 30px 0;
+
+  }
 }

@@ -8,9 +8,32 @@
  */
 #}
 
-<footer class="container p-3 footer" role="contentinfo">
-  {% block footer %}
-    <hr>
-    {{ footer.slogan }}
-  {% endblock footer %}
+<footer class="p-3 footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__top">
+      {% block top_side %}
+        <div class="footer__title">{{ footer__title }}</div>
+      {% endblock %}
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        {% block left_side %}{% endblock %}
+      </div>
+      <div class="col-4">
+        {% block middle_side %}{% endblock %}
+      </div>
+      <div class="col-4">
+        {% block right_side %}{% endblock %}
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      {% block bottom_side %}
+        <div class="footer__slogan">
+          {{ footer__slogan }}
+        </div>
+      {% endblock %}
+    </div>
+  </div>
 </footer>
