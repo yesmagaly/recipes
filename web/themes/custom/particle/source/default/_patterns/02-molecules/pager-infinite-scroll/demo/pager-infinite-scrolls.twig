@@ -1,0 +1,15 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = pager_infinite_scroll_demo_block %}
+
+{% block content %}
+  {% embed '@molecules/_pager-infinite-scroll.twig' %}
+    {% block content %}
+      <ul class="js-pager__items pager" data-drupal-views-infinite-scroll-pager="">
+        <li class="pager__item">
+          <a class="btn btn-primary btn-lg" href="?page=1" title="Go to next page" rel="next">Load More</a>
+        </li>
+      </ul>
+    {% endblock %}
+  {% endembed %}
+{% endblock %}
