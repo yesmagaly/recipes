@@ -11,7 +11,7 @@
 
 <div class="show-more">
   {% block content %}
-    <a href="{{ show_more__url | default('#')}}" target="{{ show_more__target | default('_blank') }}">
+    <a href="{{ show_more__url | default('#')}}" target="{{ show_more__target | default('_blank') }}" title="{{ show_more__title | default('Show more') }}">
       <i class="fas fa-arrow-right"></i>
     </a>
   {% endblock %}
