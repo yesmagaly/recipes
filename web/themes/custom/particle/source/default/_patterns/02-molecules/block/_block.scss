@@ -1,0 +1,18 @@
+// Custom styles for block
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.block {
+
+  &__title {
+    font-family: $font-family;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}

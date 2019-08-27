@@ -1,0 +1,35 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = block_demo_block %}
+
+{% block content %}
+  {% embed '@molecules/_block.twig' with block_settings %}
+    {% block content %}
+      {% embed '@molecules/_album.twig' with album_item %}
+        {% block content %}
+          {% include '@molecules/_album--item.twig' %}
+          {% include '@molecules/_album--item.twig' %}
+          {% include '@molecules/_album--item.twig' %}
+          {% include '@molecules/_album--item.twig' %}
+          {% include '@molecules/_album--item.twig' %}
+          {% include '@molecules/_album--item.twig' %}
+        {% endblock %}
+      {% endembed %}
+    {% endblock %}
+  {% endembed %}
+  
+  {% embed '@molecules/_block.twig' with block_settings %}
+    {% block content %}
+      {% embed '@molecules/_album.twig' with album_item %}
+        {% block content %}
+          {% include '@molecules/_album--item.twig' %}
+          {% include '@molecules/_album--item.twig' %}
+          {% include '@molecules/_album--item.twig' %}
+          {% include '@molecules/_album--item.twig' %}
+          {% include '@molecules/_album--item.twig' %}
+          {% include '@molecules/_album--item.twig' %}
+        {% endblock %}
+      {% endembed %}
+    {% endblock %}
+  {% endembed %}
+{% endblock %}

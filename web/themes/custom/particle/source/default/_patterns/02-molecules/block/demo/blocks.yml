@@ -1,0 +1,14 @@
+block_settings:
+  block__title: 'Instagram'
+  
+album_item:
+  album_item__url: "https://images.indianexpress.com"
+  album_item__image:
+    src: "https://images.indianexpress.com/2019/04/fruits.jpg?w=759&h=422&imflag=true"
+    alt: "https://images.indianexpress.com"
+
+block_demo_block:
+  title: 'block Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'
