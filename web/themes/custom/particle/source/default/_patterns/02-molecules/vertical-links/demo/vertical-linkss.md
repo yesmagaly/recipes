@@ -1,0 +1,3 @@
+---
+title: vertical-links
+---

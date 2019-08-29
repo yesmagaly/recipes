@@ -1,0 +1,49 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = vertical_links_demo_block %}
+
+{% block content %}
+  {% embed '@molecules/_vertical-links.twig' %}
+    {% block content %}
+      <ul class="nav pr-2 flex-column">
+        <li class="nav-item">
+          <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Travels</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Lifestyle</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Features</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">About</a>
+        </li>
+      </ul>
+    {% endblock %}
+  {% endembed %}
+
+  {% embed '@molecules/_vertical-links.twig' with { vertical_links__style: 'alternative' } %}
+    {% block content %}
+      <ul class="nav pr-2 flex-column">
+        <li class="nav-item">
+          <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Travels</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Lifestyle</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Features</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">About</a>
+        </li>
+      </ul>
+    {% endblock %}
+  {% endembed %}
+{% endblock %}

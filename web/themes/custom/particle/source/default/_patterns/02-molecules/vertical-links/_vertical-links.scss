@@ -1,0 +1,16 @@
+// Custom styles for vertical-links
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.vertical-links {
+
+  .nav-link {
+    font-weight: 700;
+  }
+
+  &--alternative .nav-link {
+    color: white;
+  }
+}

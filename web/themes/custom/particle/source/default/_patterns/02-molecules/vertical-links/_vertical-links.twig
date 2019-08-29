@@ -1,0 +1,29 @@
+{#
+/**
+ * @file
+ * vertical-links
+ *
+ * Available variables for vertical-links:
+ *  - vertical_links.variable_name [variable_type]: Description of the variable. Example below.
+ *  - vertical_links.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+
+{% set vertical_links__classes = [
+  'vertical-links',
+  vertical_links__style ? 'vertical-links--' ~ vertical_links__style,
+] | sort | join(' ') | trim %}
+
+{#
+/**
+ * Dynamic class names assigment using an array, example:
+ *
+ * 1°: [ 'vertical-links', '' ] -> 'vertical-links'
+ * 2°: [ 'vertical-links', 'vertical-links--alternative' ] -> 'vertical-links vertical-links--alternative'
+*/
+#}
+
+<div class="{{ vertical_links__classes }}">
+  {% block content %}{% endblock %}
+</div>
