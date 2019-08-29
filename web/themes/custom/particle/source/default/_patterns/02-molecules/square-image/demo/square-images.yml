@@ -1,0 +1,11 @@
+square_image:
+  square_image__image:
+    src: 'https://images.indianexpress.com/2019/04/fruits.jpg?w=759&h=422&imflag=true'
+    alt: 'https://images.indianexpress.com'
+  square_image__title: '@Allure'
+
+square_image_demo_block:
+  title: 'square-image Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'

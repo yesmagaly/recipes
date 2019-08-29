@@ -1,0 +1,21 @@
+{#
+/**
+ * @file
+ * square-image
+ *
+ * Available variables for square-image:
+ *  - square_image.variable_name [variable_type]: Description of the variable. Example below.
+ *  - square_image.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+{% set square_image__classes = [
+  'square-image',
+  square_image__style ? 'square-image--' ~ square_image__style,
+] | sort | join(' ') | trim %}
+
+<div class="{{ square_image__classes }}">
+  <a class="square-image__image">
+    <img src="{{ square_image__image.src }}" alt="{{ square_image__image.alt }}">
+  </a>
+  <div class="square-image__title">{{ square_image__title }}</div>
+</div>

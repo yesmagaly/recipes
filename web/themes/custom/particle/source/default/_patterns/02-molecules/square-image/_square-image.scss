@@ -1,0 +1,38 @@
+// Custom styles for square-image
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.square-image {
+  text-align: center;
+  padding: 40px 60px 30px 60px;
+  background: #3a3a3b;
+
+  &__image {
+    justify-content: center;
+    display: inline-block;
+    margin-bottom: 25px;
+    height: 240px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__title {
+    font-family: $font-family;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &--alternative &__title {
+    color: white;
+  }
+
+}
