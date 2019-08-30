@@ -1,0 +1,7 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = share_links_demo_block %}
+
+{% block content %}
+  {% include '@molecules/_share-links.twig' with share_links %}
+{% endblock %}

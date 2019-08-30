@@ -1,0 +1,11 @@
+share_links:
+  share_links__facebook: '#'
+  share_links__twitter: '#'
+  share_links__instagram: '#'
+  share_links__pinterest: '#'
+
+share_links_demo_block:
+  title: 'share-links Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'
