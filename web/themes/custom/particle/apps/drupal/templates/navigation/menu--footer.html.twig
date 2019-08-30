@@ -24,17 +24,21 @@
   We call a macro which calls itself to render the full tree.
   @see http://twig.sensiolabs.org/doc/tags/macro.html
 #}
-{{ menus.menu_links(items, attributes, 0) }}
+{% embed '@molecules/_vertical-links.twig' with { vertical_links__style: 'alternative' }%}
+  {% block content %}
+    {{ menus.menu_links(items, attributes, 0) }}
+  {% endblock %}
+{% endembed %}
 
 {% macro menu_links(items, attributes, menu_level) %}
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
       {# These Classes are added from Particle theme #}
-      <ul{{ attributes.addClass('nav', 'pr-2', 'justify-content-end') }}>
+      <ul{{ attributes.addClass('nav', 'pr-2', 'flex-column') }}>
     {% else %}
       {# These Classes are added from Particle theme #}
-      <ul class="nav pr-2 justify-content-end">
+      <ul class="nav pr-2 flex-column">
     {% endif %}
     {% for item in items %}
       <li{{ item.attributes.addClass('nav-item') }}>

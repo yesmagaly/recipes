@@ -98,8 +98,23 @@
 
 </div>{# /.layout-container #}
 
-<footer class="container p-3 footer" role="contentinfo">
-  <hr>
-  {{ page.footer }}
-</footer>
+{% set footer_settings = {
+  footer__title: 'Allure',
+  footer__slogan: 'Allure All right reserved',
+} %}
+
+{% embed '@organisms/_footer.twig' with footer_settings %}
+  {% block left_side %}
+    {{ page.footer_left_side }}
+  {% endblock %}
+
+  {% block middle_side %}
+    {{ page.footer_middle_side }}
+  {% endblock %}
+
+  {% block right_side %}
+    {{ page.footer_right_side }}
+  {% endblock %}
+{% endembed %}
+
 {% endif %}

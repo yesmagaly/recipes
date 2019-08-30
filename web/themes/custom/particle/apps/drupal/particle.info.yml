@@ -20,6 +20,9 @@ regions:
   sidebar_first: Sidebar first
   sidebar_second: Sidebar second
   footer: Footer
+  footer_left_side: Footer left side
+  footer_middle_side: Footer middle side
+  footer_right_side: Footer right side
 component-libraries:
   protons:
     paths: []
@@ -56,12 +59,15 @@ component-libraries:
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/header
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/horizontal-feature
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/image-card
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/info-block
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/jumbotron
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/nav
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/newsletter
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/pager-infinite-scroll
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/pagination
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/related-image
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/share-links
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/square-image
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/vertical-featured
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/vertical-links
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/vue-widget
