@@ -1,0 +1,6 @@
+services:
+  recipes_core.twig.extension:
+    class: Drupal\recipes_core\TwigExtension\TwigExtension
+    arguments: []
+    tags:
+      - { name: twig.extension }
