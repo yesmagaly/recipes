@@ -13,6 +13,23 @@
       <div class="row">
         <div class="col-md-3 py-6">
           {% include '@molecules/_fans-page-card.twig' with fans_page_card %}
+          {% embed '@molecules/_block.twig' with block_settings %}
+            {% block content %}
+              {% embed '@molecules/_album.twig' with album_item %}
+                {% block content %}
+                  {% include '@molecules/_album--item.twig' %}
+                  {% include '@molecules/_album--item.twig' %}
+                  {% include '@molecules/_album--item.twig' %}
+                  {% include '@molecules/_album--item.twig' %}
+                  {% include '@molecules/_album--item.twig' %}
+                  {% include '@molecules/_album--item.twig' %}
+                {% endblock %}
+              {% endembed %}
+            {% endblock %}
+          {% endembed %}
+
+          {% include '@molecules/_newsletter.twig' with newsletter %}
+
         </div>
         <div class="col-md-9 py-6">
           {% include '@molecules/_horizontal-feature.twig' with horizontal_feature %}
@@ -24,6 +41,16 @@
           {% include '@molecules/_horizontal-feature.twig' with horizontal_feature %}
           {% include '@molecules/_horizontal-feature.twig' with horizontal_feature %}
           {% include '@molecules/_horizontal-feature.twig' with horizontal_feature %}
+
+          {% embed '@molecules/_pager-infinite-scroll.twig' %}
+            {% block content %}
+              <ul class="js-pager__items pager" data-drupal-views-infinite-scroll-pager="">
+                <li class="pager__item">
+                  <a class="btn btn-primary btn-lg" href="?page=1" title="Go to next page" rel="next">Load More</a>
+                </li>
+              </ul>
+            {% endblock %}
+          {% endembed %}
 
         </div>
       </div>

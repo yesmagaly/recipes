@@ -31,3 +31,16 @@ image_card:
   image_card__tag: 'Tips & tricks'
   image_card__date: 'June 7, 2019'
   image_card__comments: '5 comments'
+
+block_settings:
+  block__title: 'Instagram'
+
+album_item:
+  album_item__url: "https://images.indianexpress.com"
+  album_item__image:
+    src: "https://images.indianexpress.com/2019/04/fruits.jpg?w=759&h=422&imflag=true"
+    alt: "https://images.indianexpress.com"
+
+newsletter:
+  newsletter__title: "Newsletter"
+  newsletter__btn: "Subscribe"
