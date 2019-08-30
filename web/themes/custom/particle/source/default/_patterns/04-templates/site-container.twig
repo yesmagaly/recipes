@@ -4,6 +4,8 @@
  # familiar site structure for Pattern Lab.
  #}
 
+{% include "@molecules/header/_header.twig"  with header_settings %}
+
 {% include "@organisms/_navbar.twig" %}
 
 <main class="main-content">
@@ -25,4 +27,37 @@
   {% endblock %}
 </main>
 
-{% include "@organisms/_footer.twig" %}
+{% embed '@organisms/_footer.twig' with footer %}
+  {% block left_side %}
+    {% embed '@molecules/_vertical-links.twig' with { vertical_links__style: 'alternative' } %}
+      {% block content %}
+        <ul class="nav pr-2 flex-column">
+          <li class="nav-item">
+            <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Travels</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Lifestyle</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">About</a>
+          </li>
+        </ul>
+      {% endblock %}
+    {% endembed %}
+  {% endblock %}
+
+  {% block middle_side %}
+    {% include '@molecules/_square-image.twig' with square_image %}
+  {% endblock %}
+
+  {% block right_side %}
+    {% include '@molecules/_info-block.twig' with info_block %}
+    {% include '@molecules/_share-links.twig' with share_links %}
+  {% endblock %}
+{% endembed %}
