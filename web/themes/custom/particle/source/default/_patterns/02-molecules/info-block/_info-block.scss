@@ -1,0 +1,17 @@
+// Custom styles for info-block
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.info-block {
+  margin-bottom: 25px;
+
+  &__text {
+    font-family: $font-family;
+    color: #797979;
+    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
