@@ -5,6 +5,7 @@
 $theme-colors: (
   'pink': $color-pink,
   'goldenrod': $color-goldenrod,
+  'primary': #4e4377,
 );
 
 // Fonts
@@ -14,7 +15,22 @@ $header-font: 'Rufina', serif;
 $slogan-font: 'Mrs Saint Delafield', cursive;
 
 // Buttons
-$btn-border-radius: 0.25rem;
+$btn-border-radius: 0;
+$btn-border-radius-lg: 0;
+$btn-border-radius-sm: 0;
+$btn-padding-y-lg: 12px;
+$btn-font-family: $font-family;
+$btn-font-size: 12px;
+$btn-font-size-lg: 13px;
+$btn-font-weight: 600;
+
+// Inputs
+$input-border-radius: 0;
+$input-border-radius-lg: 0;
+$input-border-radius-sm: 0;
+$input-padding-y-lg: 12px;
+$input-font-size-lg: 14px;
+$input-placeholder-color: #bdbdbd;
 
 // Cards
 $card-border-width: rem-calc(1px);
@@ -27,6 +43,45 @@ $spacer: 1rem;
 $spacers: (
   6: $spacer * 4,
 );
+
+// Forms
+$component-active-bg: #666;
+$input-focus-border-color: lighten($component-active-bg, 25%);
+
+// Navs - Light
+$navbar-light-color: black;
+
+// Dropdown styles
+$dropdown-border-radius: 0;
+$dropdown-font-size: 11px;
+$dropdown-item-padding-x: 1rem;
+
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1290px
+);
+
+
+// Grid containers
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1230px
+);
+
+// Grid columns
+$grid-gutter-width: 50px;
 
 // Bootstrap non-printing tools. DO NOT REMOVE, because Sass overrides must be
 // defined BEFORE the !default values are.
