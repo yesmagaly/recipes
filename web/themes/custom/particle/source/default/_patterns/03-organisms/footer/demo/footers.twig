@@ -13,14 +13,35 @@
 
 {% embed '@organisms/_footer.twig' with footer %}
   {% block left_side %}
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    {% embed '@molecules/_vertical-links.twig' with { vertical_links__style: 'alternative' } %}
+      {% block content %}
+        <ul class="nav pr-2 flex-column">
+          <li class="nav-item">
+            <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Travels</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Lifestyle</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact" class="nav-link" data-drupal-link-system-path="contact">About</a>
+          </li>
+        </ul>
+      {% endblock %}
+    {% endembed %}
   {% endblock %}
 
   {% block middle_side %}
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    {% include '@molecules/_square-image.twig' with square_image %}
   {% endblock %}
 
   {% block right_side %}
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    {% include '@molecules/_info-block.twig' with info_block %}
+    {% include '@molecules/_share-links.twig' with share_links %}
   {% endblock %}
 {% endembed %}
