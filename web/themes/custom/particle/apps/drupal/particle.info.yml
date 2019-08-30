@@ -28,22 +28,42 @@ component-libraries:
       - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms
       - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/alert
       - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/badge
+      - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/block-title
       - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/branding
       - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/breadcrumb
       - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/button
+      - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/date
       - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/dropdown
       - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/grid
+      - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/highlighted-text
+      - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/highlighted-text-two
       - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/image
       - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/list-group
+      - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/show-more
+      - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/social-media
       - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/svg
+      - ../../dist/app-drupal/assets/atomic/_patterns/01-atoms/tag
   molecules:
     paths:
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/album
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/author
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/block
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/card
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/card-slider
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/carousel
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/fans-page-card
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/header
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/horizontal-feature
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/image-card
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/jumbotron
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/nav
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/newsletter
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/pager-infinite-scroll
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/pagination
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/related-image
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/vertical-featured
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/vertical-links
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/vue-widget
   organisms:
     paths:

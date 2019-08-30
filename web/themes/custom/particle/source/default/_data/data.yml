@@ -107,3 +107,30 @@ article_image:
   alt: ''
   style: 'small'
   placeholder: true
+
+# Default header data information.
+header_settings:
+  header__name: "allure",
+  header__slogan: "lifestyle blog",
+
+# Default footer data information.
+footer:
+  footer__title: "Allure"
+  footer__slogan: 'Allure All right reserved'
+
+square_image:
+  square_image__image:
+    src: 'https://images.indianexpress.com/2019/04/fruits.jpg?w=759&h=422&imflag=true'
+    alt: 'https://images.indianexpress.com'
+  square_image__title: '@Allure'
+  square_image__style: 'alternative'
+
+info_block:
+  info_block__text: 'Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ullamco ex ea commodo consequat.'
+
+share_links:
+  share_links__facebook: '#'
+  share_links__twitter: '#'
+  share_links__instagram: '#'
+  share_links__pinterest: '#'
+  share_links__style: 'alternative'
