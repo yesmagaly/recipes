@@ -1,6 +1,6 @@
 {
   "scssColors": {
-    "primary": "rgb(0, 123, 255)",
+    "primary": "rgb(78, 67, 119)",
     "secondary": "rgb(108, 117, 125)",
     "success": "rgb(40, 167, 69)",
     "info": "rgb(23, 162, 184)",
@@ -16,7 +16,7 @@
     "sm": "576px",
     "md": "768px",
     "lg": "992px",
-    "xl": "1200px"
+    "xl": "1290px"
   },
   "scssSpacing": {
     "0": 0,

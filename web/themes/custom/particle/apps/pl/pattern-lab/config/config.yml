@@ -75,7 +75,9 @@ plugins:
       molecules:
         paths:
           - ../../../source/default/_patterns/02-molecules
+          - ../../../source/default/_patterns/02-molecules/album
           - ../../../source/default/_patterns/02-molecules/author
+          - ../../../source/default/_patterns/02-molecules/block
           - ../../../source/default/_patterns/02-molecules/card
           - ../../../source/default/_patterns/02-molecules/card-slider
           - ../../../source/default/_patterns/02-molecules/carousel
@@ -83,11 +85,17 @@ plugins:
           - ../../../source/default/_patterns/02-molecules/header
           - ../../../source/default/_patterns/02-molecules/horizontal-feature
           - ../../../source/default/_patterns/02-molecules/image-card
+          - ../../../source/default/_patterns/02-molecules/info-block
           - ../../../source/default/_patterns/02-molecules/jumbotron
           - ../../../source/default/_patterns/02-molecules/nav
+          - ../../../source/default/_patterns/02-molecules/newsletter
+          - ../../../source/default/_patterns/02-molecules/pager-infinite-scroll
           - ../../../source/default/_patterns/02-molecules/pagination
           - ../../../source/default/_patterns/02-molecules/related-image
+          - ../../../source/default/_patterns/02-molecules/share-links
+          - ../../../source/default/_patterns/02-molecules/square-image
           - ../../../source/default/_patterns/02-molecules/vertical-featured
+          - ../../../source/default/_patterns/02-molecules/vertical-links
           - ../../../source/default/_patterns/02-molecules/vue-widget
       organisms:
         paths:
