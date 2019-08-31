@@ -1,0 +1,25 @@
+uuid: 381caa40-d586-47d7-8afb-1d16bdfc3f22
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - recipe
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: recipe_branding
+theme: recipe
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
