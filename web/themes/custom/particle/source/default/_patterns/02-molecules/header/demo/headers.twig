@@ -1,1 +1,10 @@
-{% include '@molecules/_header.twig' with header %}
+{% embed '@molecules/_header.twig' %}
+  {% block content %}
+    {% include "@atoms/_branding.twig" with {
+      url: '#',
+      logo_svg_inline: '@atoms/branding/logo.svg',
+      site_name: 'Particle',
+      site_slogan: 'Site Slogan that Describes the Logo Above with Inline SVG'
+    } %}
+  {% endblock %}
+{% endembed %}
