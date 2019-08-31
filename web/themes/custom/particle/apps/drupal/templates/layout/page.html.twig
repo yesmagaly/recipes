@@ -54,10 +54,15 @@
 
   {{ page.highlighted }}
 
+  {% embed '@molecules/_header.twig' %}
+    {% block content %}
+      {{ page.header_branding }}
+    {% endblock %}
+  {% endembed %}
+
   <header role="banner">
     {% embed '@molecules/jumbotron/_jumbotron.twig' with { jumbotron_fluid: true } %}
       {% block jumbotron_branding %}
-        {{ page.header_branding }}
         {{ page.secondary_menu }}
       {% endblock jumbotron_branding %}
     {% endembed %}
@@ -99,8 +104,8 @@
 </div>{# /.layout-container #}
 
 {% set footer_settings = {
-  footer__title: 'Allure',
-  footer__slogan: 'Allure All right reserved',
+  footer__title: site_name,
+  footer__slogan: site_slogan,
 } %}
 
 {% embed '@organisms/_footer.twig' with footer_settings %}

@@ -13,4 +13,9 @@ function particle_preprocess_page(&$variables) {
   if ($moduleHandler->moduleExists('components')) {
     $variables['has_components_module'] = TRUE;
   }
+
+  // Load the site name out of configuration.
+  $config = \Drupal::config('system.site');
+  $variables['site_name'] = $config->get('name');
+  $variables['site_slogan'] = $config->get('slogan');
 }
