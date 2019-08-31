@@ -110,8 +110,8 @@ article_image:
 
 # Default header data information.
 header_settings:
-  header__name: "allure",
-  header__slogan: "lifestyle blog",
+  header__name: "allure"
+  header__slogan: "lifestyle blog"
 
 # Default footer data information.
 footer:
