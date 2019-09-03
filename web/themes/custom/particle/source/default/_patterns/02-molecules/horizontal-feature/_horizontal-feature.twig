@@ -6,10 +6,20 @@
  * Available variables for horizontal-feature:
  *  - horizontal_feature.variable_name [variable_type]: Description of the variable. Example below.
  *  - horizontal_feature.invert [bool]: When set, colors will be inverted for light display on dark background.
+ *  - attributes
+ *  - title_prefix
+ *  - title_suffix
+ *  - metadata
  */
 #}
 
+{% if attributes %}
+<div{{ attributes.addClass('horizontal-feature') }}>
+{% else %}
 <div class="horizontal-feature">
+{% endif %}
+
+  {{ title_prefix }}
   <a href="{{ horizontal_feature__url }}">
     <img src="{{ horizontal_feature__image.src }}" alt="{{ horizontal_feature__image.alt }}" class="horizontal-feature__image">
   </a>
@@ -34,4 +44,5 @@
       {% include '@atoms/_show-more.twig' with { show_more__url: horizontal_feature__url } %}
     {% endblock %}
   </div>
+  {{ title_suffix }}
 </div>
