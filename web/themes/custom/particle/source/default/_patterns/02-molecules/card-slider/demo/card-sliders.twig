@@ -1,7 +1,7 @@
-{% embed '@molecules/_card-slider.twig' with card_slider_item %}
+{% embed '@molecules/_card-slider.twig' %}
   {% block content %}
-  {% include '@molecules/_card-slider--item.twig' %}
-  {% include '@molecules/_card-slider--item.twig' %}
-  {% include '@molecules/_card-slider--item.twig' %}
+  {% include '@molecules/_card-slider--item.twig' with card_slider_item %}
+  {% include '@molecules/_card-slider--item.twig' with card_slider_item %}
+  {% include '@molecules/_card-slider--item.twig' with card_slider_item %}
   {% endblock %}
 {% endembed %}
