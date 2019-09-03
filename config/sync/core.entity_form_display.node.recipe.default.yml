@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.recipe.body
+    - field.field.node.recipe.field_category
     - field.field.node.recipe.field_images
     - image.style.thumbnail
     - node.type.recipe
@@ -31,6 +32,15 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_category:
+    weight: 123
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_images:
     weight: 122
     settings:

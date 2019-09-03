@@ -1,0 +1,15 @@
+uuid: 6867a436-46fd-4092-af5e-10ffa6d2e10c
+langcode: en
+status: true
+dependencies: {  }
+name: image_category
+label: 'Image category'
+effects:
+  6487600d-cf7d-4bb5-bda6-51dac14d4e7b:
+    uuid: 6487600d-cf7d-4bb5-bda6-51dac14d4e7b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 635
+      height: 445
+      anchor: center-center

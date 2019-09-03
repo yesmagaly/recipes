@@ -1,0 +1,33 @@
+uuid: ab121b77-ec42-4146-b1e8-e48cc3aca2b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.slider_item
+    - field.field.taxonomy_term.category.field_image
+    - image.style.image_category
+    - taxonomy.vocabulary.category
+  module:
+    - image
+    - text
+id: taxonomy_term.category.slider_item
+targetEntityType: taxonomy_term
+bundle: category
+mode: slider_item
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: image_category
+    third_party_settings: {  }
+    type: image_url
+    region: content
+hidden: {  }

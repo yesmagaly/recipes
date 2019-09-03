@@ -1,0 +1,37 @@
+uuid: f0aa12dd-cc50-41a2-8d98-fe60a22ed9f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_right_side
+    - paragraphs.paragraphs_type.columns
+    - paragraphs.paragraphs_type.dynamic_view
+  module:
+    - entity_reference_revisions
+id: paragraph.columns.field_right_side
+field_name: field_right_side
+entity_type: paragraph
+bundle: columns
+label: 'Right side'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      dynamic_view: dynamic_view
+    target_bundles_drag_drop:
+      columns:
+        weight: 4
+        enabled: false
+      dynamic_hero_view:
+        weight: 5
+        enabled: false
+      dynamic_view:
+        enabled: true
+        weight: 6
+field_type: entity_reference_revisions

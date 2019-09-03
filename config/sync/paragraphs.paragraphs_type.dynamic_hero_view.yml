@@ -1,0 +1,9 @@
+uuid: a8b5f11b-535b-468d-b850-790f190a006e
+langcode: en
+status: true
+dependencies: {  }
+id: dynamic_hero_view
+label: 'Dynamic hero view'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

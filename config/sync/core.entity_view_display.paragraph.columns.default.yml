@@ -1,0 +1,34 @@
+uuid: 6b968b05-171e-4d0c-a617-74258aea6b91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.columns.field_left_side
+    - field.field.paragraph.columns.field_right_side
+    - paragraphs.paragraphs_type.columns
+  module:
+    - entity_reference_revisions
+id: paragraph.columns.default
+targetEntityType: paragraph
+bundle: columns
+mode: default
+content:
+  field_left_side:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_right_side:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

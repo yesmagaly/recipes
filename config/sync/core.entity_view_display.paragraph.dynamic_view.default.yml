@@ -1,0 +1,25 @@
+uuid: 693c16a7-35c8-4ccf-a3b9-d01fb25a5341
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dynamic_view.field_view
+    - paragraphs.paragraphs_type.dynamic_view
+  module:
+    - viewfield
+id: paragraph.dynamic_view.default
+targetEntityType: paragraph
+bundle: dynamic_view
+mode: default
+content:
+  field_view:
+    weight: 0
+    label: above
+    settings:
+      view_title: hidden
+      always_build_output: 0
+      empty_view_title: hidden
+    third_party_settings: {  }
+    type: viewfield_default
+    region: content
+hidden: {  }

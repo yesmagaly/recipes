@@ -1,0 +1,35 @@
+uuid: a14b107c-39c9-4c01-adac-08574140aeb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_left_side
+    - paragraphs.paragraphs_type.columns
+  module:
+    - entity_reference_revisions
+id: paragraph.columns.field_left_side
+field_name: field_left_side
+entity_type: paragraph
+bundle: columns
+label: 'Left side'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      columns:
+        weight: 4
+        enabled: false
+      dynamic_hero_view:
+        weight: 5
+        enabled: false
+      dynamic_view:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

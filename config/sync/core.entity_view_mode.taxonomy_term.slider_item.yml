@@ -1,0 +1,10 @@
+uuid: d732ff22-f0f7-42c4-b11b-e652b1c7bed9
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.slider_item
+label: 'Slider item'
+targetEntityType: taxonomy_term
+cache: true

@@ -1,0 +1,25 @@
+uuid: bf673d40-9c55-477d-942b-5d1e63ccbc18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.dynamic_hero_view.field_hero_view
+    - paragraphs.paragraphs_type.dynamic_hero_view
+  module:
+    - viewfield
+id: paragraph.dynamic_hero_view.default
+targetEntityType: paragraph
+bundle: dynamic_hero_view
+mode: default
+content:
+  field_hero_view:
+    weight: 0
+    label: hidden
+    settings:
+      view_title: hidden
+      always_build_output: 0
+      empty_view_title: hidden
+    third_party_settings: {  }
+    type: viewfield_default
+    region: content
+hidden: {  }

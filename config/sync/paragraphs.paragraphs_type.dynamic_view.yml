@@ -1,0 +1,9 @@
+uuid: d0974919-1f38-4ab4-9c9b-7ec86dbad956
+langcode: en
+status: true
+dependencies: {  }
+id: dynamic_view
+label: 'Dynamic view'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
