@@ -8,8 +8,13 @@
  *  - image_card.invert [bool]: When set, colors will be inverted for light display on dark background.
  */
 #}
-
+{% if attributes %}
+<div{{ attributes.addClass('image-card') }}>
+{% else %}
 <div class="image-card">
+{% endif %}
+
+  {{ title_prefix }}
   <div class="image-card__img">
     <img src="{{ image_card__image.src }}" alt="{{ image_card__image.alt }}">
   </div>
@@ -26,4 +31,5 @@
       {% include '@atoms/_date.twig' with { date__label: image_card__date,  date__comments: image_card__comments, date__style: 'alternative'} %}
     {% endblock %}
   </div>
+  {{ title_suffix }}
 </div>
