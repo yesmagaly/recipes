@@ -1,0 +1,15 @@
+uuid: 9978e055-7a53-44b1-8a5f-66ce01d92690
+langcode: en
+status: true
+dependencies: {  }
+name: image_card
+label: 'Image card (865x600)'
+effects:
+  b942542a-2d4f-4024-a998-dd10ffb883a6:
+    uuid: b942542a-2d4f-4024-a998-dd10ffb883a6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 865
+      height: 600
+      anchor: center-center
