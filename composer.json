@@ -26,6 +26,7 @@
         "drupal/paragraphs": "^1.9",
         "drupal/twig_field_value": "^1.2",
         "drupal/viewfield": "^3.0@beta",
+        "drupal/views_exclude_previous": "^1.0@RC",
         "drupal/views_infinite_scroll": "^1.6",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",

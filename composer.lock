@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47d17f63d137a38d56e472a1074fabc6",
+    "content-hash": "d4945dd7880f646ed7ec6716198b5daf",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2582,6 +2582,62 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/viewfield",
                 "issues": "https://www.drupal.org/project/issues/viewfield"
+            }
+        },
+        {
+            "name": "drupal/views_exclude_previous",
+            "version": "1.0.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_exclude_previous.git",
+                "reference": "8.x-1.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_exclude_previous-8.x-1.0-rc1.zip",
+                "reference": "8.x-1.0-rc1",
+                "shasum": "0ecc63c0a47312f7750f0af9ec03a5625d7bc1fe"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc1",
+                    "datestamp": "1498470243",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Alice Heaton",
+                    "homepage": "https://www.drupal.org/user/60899"
+                },
+                {
+                    "name": "Kars-T",
+                    "homepage": "https://www.drupal.org/user/224499"
+                },
+                {
+                    "name": "focus13",
+                    "homepage": "https://www.drupal.org/user/41878"
+                }
+            ],
+            "description": "Views Exclude Previous provides a views filter which exlcudes nodes that have already been loaded/displayed on the current page.",
+            "homepage": "https://www.drupal.org/project/views_exclude_previous",
+            "support": {
+                "source": "https://git.drupalcode.org/project/views_exclude_previous",
+                "issues": "https://www.drupal.org/project/issues/views_exclude_previous"
             }
         },
         {
@@ -8053,7 +8109,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/viewfield": 10
+        "drupal/viewfield": 10,
+        "drupal/views_exclude_previous": 5
     },
     "prefer-stable": true,
     "prefer-lowest": false,
