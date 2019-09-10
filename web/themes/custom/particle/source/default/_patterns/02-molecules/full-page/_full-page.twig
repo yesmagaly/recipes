@@ -1,0 +1,40 @@
+{#
+/**
+ * @file
+ * full-page
+ *
+ * Available variables for full-page:
+ *  - full_page.variable_name [variable_type]: Description of the variable. Example below.
+ *  - full_page.invert [bool]: When set, colors will be inverted for light display on dark background.
+ */
+#}
+
+<div class="full-page">
+  <div class="full-page__content">
+    {% block tag %}
+      {% include '@atoms/_tag.twig' with { tag__label: full_page__tag } %}
+    {% endblock %}
+    {% block title %}
+      {% include '@atoms/_block-title.twig' with { block_title__label: full_page__title } %}
+    {% endblock %}
+    {% block date %}
+      {% include '@atoms/_date.twig' with { date__label: full_page__date,  date__comments: full_page__comments } %}
+    {% endblock %}
+  </div>
+  <div>
+    <div class="full-page__image">
+      <img src="{{ full_page__image.src }}" alt="{{ full_page__image.alt }}">
+    </div>
+    <div class="full-page__body">
+      {{ full_page__body }}
+    </div>
+    <div class="full-page__highlighted">
+      {% block text %}
+        {% include '@atoms/_highlighted-text.twig' with { highlighted_text__summary: full_page__highlighted } %}
+      {% endblock %}
+    </div>
+    <div class="full-page__body">
+      {{ full_page__body }}
+    </div>
+  </div>
+</div>

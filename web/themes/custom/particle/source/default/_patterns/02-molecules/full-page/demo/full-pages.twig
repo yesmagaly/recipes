@@ -1,0 +1,7 @@
+{% extends '@protons/demo/demo-block.twig' %}
+
+{% set demo = full_page_demo_block %}
+
+{% block content %}
+  {% include '@molecules/_full-page.twig' with full_page %}
+{% endblock %}

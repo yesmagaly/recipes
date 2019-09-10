@@ -1,0 +1,24 @@
+// Custom styles for full-page
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.full-page {
+  text-align: center;
+
+  &__image {
+    margin-bottom: 40px;
+    img {
+      height: 680px;
+      width: 100%;
+    }
+  }
+
+  &__body {
+    text-align: justify;
+    color: #787878;
+    font-family: $font-family;
+    margin-bottom: 50px;
+  }
+}
