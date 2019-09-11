@@ -6,10 +6,19 @@
  * Available variables for full-page:
  *  - full_page.variable_name [variable_type]: Description of the variable. Example below.
  *  - full_page.invert [bool]: When set, colors will be inverted for light display on dark background.
+ *  - attributes
+ *  - title_prefix
+ *  - title_suffix
+ *  - metadata
  */
 #}
-
+{% if attributes %}
+<div{{ attributes.addClass('full-page') }}>
+{% else %}
 <div class="full-page">
+{% endif %}
+
+  {{ title_prefix }}
   <div class="full-page__content">
     {% block tag %}
       {% include '@atoms/_tag.twig' with { tag__label: full_page__tag } %}
@@ -33,8 +42,6 @@
         {% include '@atoms/_highlighted-text.twig' with { highlighted_text__summary: full_page__highlighted } %}
       {% endblock %}
     </div>
-    <div class="full-page__body">
-      {{ full_page__body }}
-    </div>
   </div>
+  {{ title_suffix }}
 </div>

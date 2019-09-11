@@ -57,6 +57,7 @@ component-libraries:
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/carousel
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/columns
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/fans-page-card
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/full-page
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/header
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/horizontal-feature
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/image-card
