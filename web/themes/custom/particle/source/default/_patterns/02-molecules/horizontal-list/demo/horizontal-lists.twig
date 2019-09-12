@@ -1,0 +1,11 @@
+<div class="container">
+  {% embed '@molecules/_horizontal-list.twig' %}
+  {% block content %}
+  {% include '@molecules/_vertical-featured.twig' with vertical_featured %}
+  {% include '@molecules/_vertical-featured.twig' with vertical_featured %}
+  {% include '@molecules/_vertical-featured.twig' with vertical_featured %}
+  {% include '@molecules/_vertical-featured.twig' with vertical_featured %}
+  {% include '@molecules/_vertical-featured.twig' with vertical_featured %}
+  {% endblock %}
+  {% endembed %}
+</div>

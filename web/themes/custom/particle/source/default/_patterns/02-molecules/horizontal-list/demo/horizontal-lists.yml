@@ -1,0 +1,17 @@
+vertical_featured:
+  vertical_featured__url: 'https://www.bettycrocker.com/recipes/watermelon-cake/'
+  vertical_featured__image:
+    src: 'https://www.tasteofhome.com/wp-content/uploads/2017/10/exps20334_EWD153732B03_27_9b-1-696x696.jpg'
+    alt: 'Image'
+  vertical_featured__tag: 'Recipes'
+  vertical_featured__title: 'Delicious summer cake'
+  vertical_featured__date: 'June 7, 2019'
+  vertical_featured__comments: '5 comments'
+  vertical_featured__body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                              aliqua. Ut enim ad minim veniam.'
+
+horizontal_list_demo_block:
+  title: 'horizontal-list Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'
