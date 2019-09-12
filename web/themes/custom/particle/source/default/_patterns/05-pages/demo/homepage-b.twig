@@ -1,0 +1,56 @@
+{% extends '@templates/site-container.twig' %}
+  {% block content %}
+    <div class="container">
+      {% include '@molecules/_image-card.twig' with image_card %}
+
+      <div class="row">
+        <div class="col-md-9 py-6">
+          <div class="" style="display: flex;">
+            {% include '@molecules/_vertical-featured.twig' with vertical_featured %}
+            {% include '@molecules/_vertical-featured.twig' with vertical_featured %}
+          </div>
+          <div class="" style="display: flex;">
+            {% include '@molecules/_vertical-featured.twig' with vertical_featured %}
+            {% include '@molecules/_vertical-featured.twig' with vertical_featured %}
+          </div>
+          <div class="" style="display: flex;">
+            {% include '@molecules/_vertical-featured.twig' with vertical_featured %}
+            {% include '@molecules/_vertical-featured.twig' with vertical_featured %}
+          </div>
+
+          {% embed '@molecules/_pager-infinite-scroll.twig' %}
+            {% block content %}
+              <ul class="js-pager__items pager" data-drupal-views-infinite-scroll-pager="">
+                <li class="pager__item">
+                  <a class="btn btn-primary btn-lg" href="?page=1" title="Go to next page" rel="next">Load More</a>
+                </li>
+              </ul>
+            {% endblock %}
+          {% endembed %}
+        </div>
+
+        <div class="col-md-3 py-6">
+          {% include '@molecules/_fans-page-card.twig' with fans_page_card %}
+
+          {% embed '@molecules/_block.twig' with block_settings %}
+            {% block content %}
+              {% embed '@molecules/_album.twig' with album_item %}
+                {% block content %}
+                  {% include '@molecules/_album--item.twig' %}
+                  {% include '@molecules/_album--item.twig' %}
+                  {% include '@molecules/_album--item.twig' %}
+                  {% include '@molecules/_album--item.twig' %}
+                  {% include '@molecules/_album--item.twig' %}
+                  {% include '@molecules/_album--item.twig' %}
+                {% endblock %}
+              {% endembed %}
+            {% endblock %}
+          {% endembed %}
+
+          {% include '@molecules/_newsletter.twig' with newsletter %}
+        </div>
+      </div>
+     </div>
+
+
+  {% endblock %}

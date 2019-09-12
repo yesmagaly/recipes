@@ -1,0 +1,38 @@
+image_card:
+  image_card__image:
+    src: 'https://dessertsbyjuliette.com/wp-content/uploads/2017/06/Desserts-by-juliette-healty-fruit-salad-summer-fun-1024x765.jpg'
+    alt: 'https://dessertsbyjuliette.com/wp-content/uploads/'
+  image_card__title: 'New ways to be strong'
+  image_card__tag: 'Tips & tricks'
+  image_card__date: 'June 7, 2019'
+  image_card__comments: '5 comments'
+
+vertical_featured:
+  vertical_featured__url: 'https://www.bettycrocker.com/recipes/watermelon-cake/'
+  vertical_featured__image:
+    src: 'https://www.tasteofhome.com/wp-content/uploads/2017/10/exps20334_EWD153732B03_27_9b-1-696x696.jpg'
+    alt: 'Image'
+  vertical_featured__tag: 'Recipes'
+  vertical_featured__title: 'Delicious summer cake'
+  vertical_featured__date: 'June 7, 2019'
+  vertical_featured__comments: '5 comments'
+  vertical_featured__body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna'
+
+fans_page_card:
+  fans_page_card__img:
+    src: 'https://www.tasteofhome.com/wp-content/uploads/2017/10/exps20334_EWD153732B03_27_9b-1-696x696.jpg'
+    alt: 'https://www.tasteofhome.com/'
+  fans_page_card__tag: 'facebook fans page'
+
+block_settings:
+  block__title: 'Instagram'
+
+album_item:
+  album_item__url: "https://images.indianexpress.com"
+  album_item__image:
+    src: "https://images.indianexpress.com/2019/04/fruits.jpg?w=759&h=422&imflag=true"
+    alt: "https://images.indianexpress.com"
+
+newsletter:
+  newsletter__title: "Newsletter"
+  newsletter__btn: "Subscribe"

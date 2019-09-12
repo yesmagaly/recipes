@@ -17,6 +17,8 @@ import './article.twig';
 import './homepage.twig';
 import './homepage-a.twig';
 import './homepage-a.yml';
+import './homepage-b.twig';
+import './homepage-b.yml';
 
 export const name = 'demoPages';
 
