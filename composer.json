@@ -82,6 +82,11 @@
                 ".editorconfig": "../.editorconfig",
                 ".gitattributes": "../.gitattributes"
             }
+        },
+        "patches": {
+          "drupal/core": {
+            "Accessing the original entity in field templates is hard": "https://www.drupal.org/files/issues/accessing_the_original-2761525-9.patch"
+          }
         }
     }
 }
