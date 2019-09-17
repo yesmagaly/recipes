@@ -88,6 +88,7 @@ plugins:
           - ../../../source/default/_patterns/02-molecules/horizontal-feature
           - ../../../source/default/_patterns/02-molecules/horizontal-list
           - ../../../source/default/_patterns/02-molecules/image-card
+          - ../../../source/default/_patterns/02-molecules/image-carousel
           - ../../../source/default/_patterns/02-molecules/info-block
           - ../../../source/default/_patterns/02-molecules/jumbotron
           - ../../../source/default/_patterns/02-molecules/nav

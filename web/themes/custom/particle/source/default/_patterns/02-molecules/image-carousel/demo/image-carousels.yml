@@ -1,0 +1,10 @@
+image_carousel_item:
+  image_carousel_item__img:
+    src: 'https://dessertsbyjuliette.com/wp-content/uploads/2017/06/Desserts-by-juliette-healty-fruit-salad-summer-fun-1024x765.jpg'
+    alt: 'https://dessertsbyjuliette.com/wp-content/uploads/'
+
+image_carousel_demo_block:
+  title: 'image-carousel Component'
+  text:
+    lead: 'Add a quick description here.'
+    summary: 'Add code examples here using <code>html code syntax</code>'

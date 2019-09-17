@@ -1,0 +1,42 @@
+// Custom styles for image-carousel
+
+// The non-printing variables, functions, and mixins of 00-protons/variables
+// are provided to this file via:
+//   webpack.particle.js: sass-loader.data|includePaths
+
+.image-carousel {
+  .slick-prev {
+    left: 25px;
+    z-index: 1;
+  }
+
+  .slick-prev:before {
+    content: '\f0a8';
+    color: #4f427a;
+    font-size: 32px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+
+  .slick-next {
+    right: 35px;
+  }
+
+  .slick-next:before {
+    content: '\f0a9';
+    color: #4f427a;
+    font-size: 32px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+}
+
+.image-carousel-item {
+  margin-bottom: 40px;
+
+  img {
+    object-fit: cover;
+    height: 680px;
+    width: 100%;
+  }
+}
