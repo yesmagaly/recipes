@@ -60,7 +60,9 @@ component-libraries:
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/full-page
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/header
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/horizontal-feature
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/horizontal-list
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/image-card
+      - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/image-carousel
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/info-block
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/jumbotron
       - ../../dist/app-drupal/assets/atomic/_patterns/02-molecules/nav
