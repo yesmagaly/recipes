@@ -19,3 +19,13 @@ function particle_preprocess_page(&$variables) {
   $variables['site_name'] = $config->get('name');
   $variables['site_slogan'] = $config->get('slogan');
 }
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function particle_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+    $content_type = $node->bundle();
+    $suggestions[] = 'page__'.$content_type;
+  }
+}
