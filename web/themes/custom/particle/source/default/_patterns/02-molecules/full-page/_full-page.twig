@@ -32,7 +32,9 @@
   </div>
   <div>
     <div class="full-page__image">
-      <img src="{{ full_page__image.src }}" alt="{{ full_page__image.alt }}">
+      {% block carousel_content %}
+        <img src="{{ full_page__image.src }}" alt="{{ full_page__image.alt }}">
+      {% endblock %}
     </div>
     <div class="full-page__body">
       {{ full_page__body }}
