@@ -39,9 +39,12 @@
  */
 #}
 
+{% set columns_raw = content.field_layout|field_value %}
+{% set columns = columns_raw[0]['#markup']|split('_') %}
+
 {% embed '@molecules/_columns.twig' with  {
-  columns__left: '3',
-  columns__right: '9'
+  columns__left: columns[0],
+  columns__right: columns[1]
 } %}
   {% block left_side %}
     {{ content.field_left_side }}
